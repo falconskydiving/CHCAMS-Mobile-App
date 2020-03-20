@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Community Health Center",
+    "description": "Community Health Center Association of Mississippi",
+    "slug": "chcams",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.3.7",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.chcams.test",
+      "config": {
+        "googleMaps":{
+          "apiKey": "AIzaSyADaatQvkzIRlxSVXbxiLVSmdjgc0BE2zg"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chcams.test",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDwFFx42cTrBW9vHyk7akQpoSMILsY9f7Q"
+      }
+    }
+  }
+}
